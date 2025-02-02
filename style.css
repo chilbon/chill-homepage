@@ -11,3 +11,11 @@ header {
     padding: 10px;
     border-radius: 5px;
 }
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        font-size: 18px;
+    }
+}
