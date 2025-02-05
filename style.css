@@ -17,20 +17,22 @@ header {
     font-size: 18px;
 }
 
-/* 🌟 ナビゲーションメニュー（Apple風に中央揃え） */
+/* 🌟 ナビゲーションメニューを中央揃え */
 nav {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    padding: 10px;
+    display: flex;              /* 🔹 横並びに配置 */
+    justify-content: center;    /* 🔹 中央揃え */
+    align-items: center;        /* 🔹 縦方向の中央揃え */
+    background-color: black;    /* 🔹 背景色を黒に */
+    padding: 10px 0;            /* 🔹 上下の余白を追加 */
 }
+
 
 /* 🌟 ナビゲーションのリンクスタイル */
 nav a {
     color: white; /* 🔹 リンクの色を白に設定 */
     text-decoration: none; /* 🔹 下線を消す（Apple のデザインに近づける） */
     margin: 0 20px; /* 🔹 各リンクの間に余白をつける */
-    font-size: 12px; /* 🔹 文字サイズを設定 */
+    font-size: 18px; /* 🔹 文字サイズを設定 */
     transition: opacity 0.3s; /* 🔹 マウスホバー時のフェードエフェクト */
 }
 
