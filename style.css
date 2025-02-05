@@ -32,7 +32,6 @@ nav a {
     margin: 0 20px; /* 🔹 各リンクの間に余白をつける */
     font-size: 18px; /* 🔹 文字サイズを設定 */
     transition: opacity 0.3s; /* 🔹 マウスホバー時のフェードエフェクト */
-    font-weight: bold;
 }
 
 }
