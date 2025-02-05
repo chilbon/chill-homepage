@@ -30,7 +30,7 @@ nav a {
     color: white; /* 🔹 リンクの色を白に設定 */
     text-decoration: none; /* 🔹 下線を消す（Apple のデザインに近づける） */
     margin: 0 20px; /* 🔹 各リンクの間に余白をつける */
-    font-size: 18px; /* 🔹 文字サイズを設定 */
+    font-size: 12px; /* 🔹 文字サイズを設定 */
     transition: opacity 0.3s; /* 🔹 マウスホバー時のフェードエフェクト */
 }
 
