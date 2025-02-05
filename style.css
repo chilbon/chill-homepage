@@ -20,7 +20,7 @@ header {
 /* 🌟 ナビゲーションメニュー（Apple風に中央揃え） */
 nav {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     background-color: black;
     padding: 10px;
 }
