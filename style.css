@@ -28,6 +28,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    background-color: black;
     margin: 0 20px;
     font-size: 16px;
     transition: opacity 0.3s;
